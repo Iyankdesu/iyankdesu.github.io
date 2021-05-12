@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	{% include head.html %}
+	{% seo %}
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+
+			<!-- Header -->
+			<header id="header">
+				<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+			</header>
+
+				<!-- Nav -->
+				<nav id="nav">
+					{% include nav.html %}
+				</nav>
+
+			<!-- Main -->
+			<div id="main">
+				<article class="post featured">
+					<header class="major">
+						<h2>Artikel dan Blog</h2>
+							<p>
+							Artikel dan blog yang ada pada website ini ditulis berdasarkan sumber dari buku, internet, serta pengalaman dalam mempelajari hal - hal yang bersangkutan yang kemudian ditulis ulang dalam kedalam website ini.
+							</p>
+					</header>
+				</article>
+					  
+				<!-- Post -->
+				<section class="posts">
+					{% for post in site.posts %}
+					<article>
+						<header>
+							<span class="date">{{ post.date | date_to_string }}</span>
+							<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+						</header>
+							<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+							<p>{{ post.excerpt }}</p>
+							<ul class="actions">
+								<li><a href="{{ post.url | absolute_url }}" class="button">Read More</a></li>
+							</ul>
+					</article>
+					{% endfor %}
+				</section>
+
+				</div>
+
+			<!-- Footer -->
+        	{% include foot.html %}
+
+		</div>
+
+		<!-- Scripts -->
+		{% include scripts-main.html %}
+	</body>
+</html>

@@ -1,0 +1,51 @@
+<footer id="footer">
+  
+  <section>
+    <form method="POST" action="https://api.slapform.com/{{site.email}}">
+      <div class="field">
+        <label for="name">Nama</label>
+        <input type="text" name="name" id="name"/>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" name="slap_replyto" id="email"/>
+      </div>
+      <div class="field">
+        <label for="message">Pesan</label>
+        <textarea name="message" id="message" rows="3"></textarea>
+      </div>
+      <ul class="actions">
+        <li><input type="submit" value="Send Message"/></li>
+      </ul>
+    </form>
+  </section>
+
+  <section class="split contact">
+    <section class="alt">
+      <h3>Tinggal</h3>
+      <p>{{site.location}}</p>
+    </section>
+    <section>
+      <h3>Telepon</h3>
+      <p><a href="tel:{{site.phone}}">{{site.phone}}</a></p>
+    </section>
+    <section>
+      <h3>Email</h3>
+      <p><a href="mailto:{{site.email}}">{{site.email}}</a></p>
+    </section>
+    <section>
+      <h3>Sosial</h3>
+      <ul class="icons alt">
+        <li><a href="https://twitter.com/iyankdesu" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+        <li><a href="https://www.youtube.com/channel/UC7tEaUqxsmYsQHxN0Y4YoJA" class="icon fa-youtube" rel="nofollow"><span class="label">YouTube</span></a></li>
+        <li><a href="https://instagram.com/iyankdesu" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+        <li><a href="https://github.com/Iyankdesu" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+      </ul>
+    </section>
+  </section>
+</footer>
+
+<!-- Copyright -->
+<div id="copyright">
+  <ul><li>&copy; Iyankdesu</li><li>Powered by <a href="https://jekyllrb.com/" rel="nofollow">Jekyll </a></li><li>and <a href="https://pages.github.com/" rel="nofollow">Github pages</a></li></ul>
+</div>

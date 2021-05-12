@@ -1,0 +1,69 @@
+# Site
+title:              Iyankdesu
+bio:                'Iyankdesu | Github Pages'
+description:        "Hanya sebuah website yang berisi artikel dan blog dan beberapa hal kecil lainnya"
+locale:             en_US
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://iyankdesu.github.io"
+
+
+# personal
+location:           Banjarmasin, Indonesia
+phone:              082149926305
+email:              iyankdesu@gmail.com
+
+# background images
+background_image:   /assets/images/bg.jpg
+
+defaults:
+# post
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
+    author:
+
+
+# timezone
+timezone: Asia/Makassar    
+    
+# Jekyll
+permalink:          /blog/:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# include
+include: [_pages]
+
+# keep files
+keep_files: [.git]
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]

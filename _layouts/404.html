@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+    {% include head.html %}
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+
+			<!-- Header -->
+			<header id="header">
+				<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+			</header>
+
+				<!-- Nav -->
+				<nav id="nav">
+					{% include nav.html %}
+				</nav>
+
+			<!-- Main -->
+			<div id="main">
+				<h1>
+					Error 404
+					Halaman tidak ditemukan
+				</h1>
+
+				<p>
+					Apa yang menyebabkan error ini ?<br>
+					Error ini terjadi oleh karena halaman yang ingin anda kunjungi tidak ada (tidak ditemukan), kemungkinan disebabkan karena kesalahan penulisan URL atau halaman telah dihapus oleh admin.<br>
+
+					Bagaimana menyelesaikan masalah ini ?<br>
+					Periksa kembali URL yang anda kunjungi, pastikan sudah benar dan tidak kesalahan penulisan (typo), jika masih sama harap hubungi admin website di <a href="mailto:iyankdesu@gmail.com&subject=Laporan Masalah Pada Website">iyankdesu@gmail.com.</a><br>
+				</p>
+
+			  </div>
+			  
+			<!-- Footer -->
+			<div id="copyright">
+				<ul><li>&copy; Iyankdesu</li><li>Powered by <a href="https://jekyllrb.com/" rel="nofollow">Jekyll </a></li><li>and <a href="https://pages.github.com/" rel="nofollow">Github pages</a></li></ul>
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+		{% include scripts-main.html %}
+	</body>
+</html>

@@ -1,0 +1,88 @@
+---
+layout: null
+title: Iyankdesu | Home
+description: Hanya sebuah website yang berisi artikel dan blog dan beberapa hal kecil lainnya
+sitemap:
+    priority: 1.0
+    lastmod: 2021-05-13
+    changefreq: weekly
+---
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+	{% include head.html %}
+	{% seo %}
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+
+			<!-- Header -->
+			<header id="header">
+				<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+			</header>
+
+				<!-- Nav -->
+				<nav id="nav">
+					{% include nav.html %}
+				</nav>
+
+			<!-- Main -->
+			<div id="main">
+				
+				<!-- Featured Post -->
+				<article class="post featured">
+					<header class="major">
+						<h2>dapatkan ilmu sebanyak - banyaknya</h2>
+							<p>
+							Dengan terus menulis artikel dan blog agar dapat membagikan ilmu yang dimiliki<br/>
+							dengan begitu, ilmu yang dimiliki juga akan bermanfaat bagi orang lain <br/>
+							jadilah orang yang berguna untuk orang banyak!
+							</p>
+					</header>
+						<a href="#" class="image main"><img src="{{ "/assets/images/welcome_image.jpg" | absolute_url }}" alt="" /></a>
+							<p>
+							Website ini dibuat dengan tujuan untuk menulis segala hal yang telah dipelajari sebagai artikel dan blog, dengan begitu hal yang telah dipelajari dapat diulang dikemudian hari. Selain itu, mungkin saja catatan ini dapat berguna untuk orang lain sebagai bahan bacaan untuk dipelajari.
+							</p>
+							<p>
+							Sedikit ulasan singkat, website ini berfokus untuk menulis catatan artikel dan blog mengenai sistem operasi linux, pemprograman, dan beberapa hal lainnya.
+							Kenapa linux ? kenapa tidak sistem operasi lainnya ? karena sistem operasi lain seperti windows maupun mac os dapat dipelajari dengan mudah untuk kebutuhan desktop, sedangkan linux memerlukan beberapa skill dasar untuk menggunakannya.
+							</p>
+							<p>
+							Catatan dalam website ini bersifat <i>*terbuka</i> dan boleh digunakan ulang siapapun, dengan tujuan agar ilmu yang terdapat pada catatan artikel dan blog pada website ini lebih dapat tersebar dengan luas.
+							</p>
+				</article>
+
+				<!-- Posts -->
+				<section class="posts">
+                {% for post in site.posts limit:6 %}
+  					<article>
+  						<header>
+  							<span class="date">{{ post.date | date_to_string }}</span>
+  							<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+  						</header>
+  							<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+  							<p>{{ post.excerpt }}</p>
+  								<ul class="actions">
+  									<li><a href="{{ post.url | absolute_url }}" class="button">Read More</a></li>
+  								</ul>
+  					</article>
+            	    {% endfor %}
+				</section>
+
+				<!-- Footer -->
+				<footer>
+					<ul class="actions">
+					<li><a href="{{ "/_pages/blog/" | absolute_url }}" class="button">More Blog</a></li>
+					</ul>
+				</footer>
+			</div>
+        		{% include foot.html %}
+		</div>
+
+		<!-- Scripts -->
+		{% include scripts-main.html %}
+	</body>
+</html>
