@@ -1,5 +1,5 @@
 ---
-title: "Open-Source Software"
+title: "Pengertian, Sejarah, dan Lisensi Open-Source Software"
 excerpt: "Free Libre Open-Source Software adalah sebutan untuk aplikasi dengan kode sumber yang bersifat terbuka"
 date: 2021-05-12
 image: "/assets/images/posts-hero/2021-05-12-open-source.png"
