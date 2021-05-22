@@ -38,10 +38,10 @@ Laptop DELL Inspiron 14 3000-Series:<br />
 - Pengedit video : Kdenlive<br />
 - Pengedit gambar : GIMP, Inkscape<br />
 - Perekam layar : SimpleScreenRecorder<br />
-- Text dan code editor : Vim, Kwrite, Visual Studio Code<br />
-- Browser : Brave<br />
-- Office : WPS Office<br />
-- Pemutar media : mpv, JuK<br />
+- Text dan code editor : Neovim, Kwrite, Visual Studio Code<br />
+- Browser : Brave, Firefox<br />
+- Office : Libre Office, WPS Office<br />
+- Pemutar media : mpv, audacious, vvave<br />
 </div>
 
 
