@@ -50,15 +50,15 @@ Hal yang paling sering dilakukan sehari - hari adalah menulis artikel dan blog, 
 
 
 ### tentang website
-Website ini dibuat dengan menggunakan *static site generator* [Jekyll](https://jekyllrb.com) dan dihosting di [Github pages](https://pages.github.com). Tulisan pada website ini ditulis dengan menggunakan Typora dan Visual Studio Code, gambar dibuat dan diedit dengan GIMP dan Inkscape.
+Website ini dibuat dengan menggunakan *static site generator* [Jekyll](https://jekyllrb.com) dan dihosting di [Github pages](https://pages.github.com). Tulisan pada website ini ditulis dengan menggunakan Typora dan Visual Studio Code, gambar dibuat dan diedit dengan GIMP dan Inkscape, aset gambar didapatkan dari [UnDraw](https://undraw.co/illustrations) dan [Unsplash](https://unsplash.com/).
 
 
-### Portfolio
+<!-- ### Portfolio
 
 - Muhammad Fajrian Nur Ibrahim
 
-<a href="#" class="button special">Portfolio</a>
+<a href="#" class="button special">Portfolio</a> -->
 
 -----
 
-Menemukan sesuatu yang aneh pada website ? Kontak admin dengan mengirimkan email ke <a href="mailto:iyankdesu@gmail.com&subject=Laporan Masalah Pada Website">iyankdesu@gmail.com</a>
+Menemukan sesuatu yang aneh pada website ? Kontak admin dengan mengirimkan email ke <a href="mailto:iyankdesu@gmail.com">iyankdesu@gmail.com</a>.

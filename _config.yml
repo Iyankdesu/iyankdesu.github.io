@@ -1,7 +1,7 @@
 # Site
 title:              Iyankdesu
-bio:                'Iyankdesu | Github Pages'
-description:        "Hanya sebuah website yang berisi artikel dan blog dan beberapa hal kecil lainnya"
+bio:                'Iyankdesu'
+description:        "Website blog yang berisi informasi seputar linux, open-source, dan programming"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://iyankdesu.github.io"
