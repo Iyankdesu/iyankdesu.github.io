@@ -38,7 +38,7 @@ Laptop DELL Inspiron 14 3000-Series:<br />
 - Pengedit video : Kdenlive<br />
 - Pengedit gambar : GIMP, Inkscape<br />
 - Perekam layar : SimpleScreenRecorder<br />
-- Text dan code editor : Neovim, Kwrite, Visual Studio Code<br />
+- Text dan code editor : Neovim, Kate, Visual Studio Code<br />
 - Browser : Brave, Firefox<br />
 - Office : Libre Office, WPS Office<br />
 - Pemutar media : mpv, audacious, vvave<br />
@@ -50,7 +50,14 @@ Hal yang paling sering dilakukan sehari - hari adalah menulis artikel dan blog, 
 
 
 ### tentang website
-Website ini dibuat dengan menggunakan *static site generator* [Jekyll](https://jekyllrb.com) dan dihosting di [Github pages](https://pages.github.com). Tulisan pada website ini ditulis dengan menggunakan Typora dan Visual Studio Code, gambar dibuat dan diedit dengan GIMP dan Inkscape, aset gambar didapatkan dari [UnDraw](https://undraw.co/illustrations) dan [Unsplash](https://unsplash.com/).
+Website ini dibuat dengan menggunakan *static site generator*
+[Jekyll](https://jekyllrb.com) dan dihosting di [Github
+pages](https://pages.github.com). Tulisan pada website ini ditulis dengan
+menggunakan Typora dan Visual Studio Code, gambar dibuat dan diedit dengan GIMP
+dan Inkscape, aset gambar didapatkan dari
+[UnDraw](https://undraw.co/illustrations),
+[Pexels](https://www.pexels.com),[Pixabay](https://pixabay.com/)
+dan [Unsplash](https://unsplash.com/).
 
 
 <!-- ### Portfolio
