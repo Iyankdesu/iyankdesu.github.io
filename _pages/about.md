@@ -10,7 +10,7 @@ sitemap:
 ---
 ## About me
 
-<span class="image left"><img src="{{ "/assets/images/profile.png" | absolute_url }}" alt="" /></span>
+<span class="image left"><img src="{{ "/assets/images/profile_illustration.png" | absolute_url }}" alt="" /></span>
 
 
 ### informasi tentang penulis
@@ -44,6 +44,7 @@ Laptop DELL Inspiron 14 3000-Series:<br />
 - Pemutar media : mpv, audacious, vvave<br />
 </div>
 
+<span class="image right"><img src="{{ "/assets/images/profile.png" | absolute_url }}" alt="" /></span>
 
 ### hobi
 Hal yang paling sering dilakukan sehari - hari adalah menulis artikel dan blog, serta sembari mempelajari bahasa pemprograman dan terus mengaplikasikannya agar tetap hapal dan paham sintaks - sintaksnya. Selain itu, kadang juga diserta dengan menonton kartun jepang *anime*, mendengarkan lagu dan melakukan sesuatu terhadap linux.
@@ -51,13 +52,7 @@ Hal yang paling sering dilakukan sehari - hari adalah menulis artikel dan blog, 
 
 ### tentang website
 Website ini dibuat dengan menggunakan *static site generator*
-[Jekyll](https://jekyllrb.com) dan dihosting di [Github
-pages](https://pages.github.com). Tulisan pada website ini ditulis dengan
-menggunakan Typora dan Visual Studio Code, gambar dibuat dan diedit dengan GIMP
-dan Inkscape, aset gambar didapatkan dari
-[UnDraw](https://undraw.co/illustrations),
-[Pexels](https://www.pexels.com),[Pixabay](https://pixabay.com/)
-dan [Unsplash](https://unsplash.com/).
+[Jekyll](https://jekyllrb.com) dan dihosting di [Github pages](https://pages.github.com). Tulisan pada website ini ditulis dengan menggunakan Typora dan Visual Studio Code, gambar dibuat dan diedit dengan GIMP dan Inkscape, aset gambar didapatkan dari [UnDraw](https://undraw.co/illustrations), [Pexels](https://www.pexels.com),[Pixabay](https://pixabay.com/) dan [Unsplash](https://unsplash.com/).
 
 
 <!-- ### Portfolio
