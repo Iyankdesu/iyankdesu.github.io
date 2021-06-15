@@ -52,7 +52,7 @@ Hal yang paling sering dilakukan sehari - hari adalah menulis artikel dan blog, 
 
 ### tentang website
 Website ini dibuat dengan menggunakan *static site generator*
-[Jekyll](https://jekyllrb.com) dan dihosting di [Github pages](https://pages.github.com). Tulisan pada website ini ditulis dengan menggunakan Typora dan Visual Studio Code, gambar dibuat dan diedit dengan GIMP dan Inkscape, aset gambar didapatkan dari [UnDraw](https://undraw.co/illustrations), [Pexels](https://www.pexels.com),[Pixabay](https://pixabay.com/) dan [Unsplash](https://unsplash.com/).
+[Jekyll](https://jekyllrb.com) dan dihosting di [Github pages](https://pages.github.com). Tulisan pada website ini ditulis dengan menggunakan Typora dan Visual Studio Code, gambar dibuat dan diedit dengan GIMP dan Inkscape, aset gambar didapatkan dari [UnDraw](https://undraw.co/illustrations), [Pexels](https://www.pexels.com), [Pixabay](https://pixabay.com/) dan [Unsplash](https://unsplash.com/).
 
 
 <!-- ### Portfolio
