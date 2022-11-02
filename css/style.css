@@ -84,7 +84,8 @@ a {
 }
 
 .github {
-  font-family: monospace;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 13px;
 }
 
 @media only screen and (max-width: 1000px) {
