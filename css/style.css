@@ -68,7 +68,6 @@ body {
 }
 
 h2 {
-  /* text-transform: uppercase; */
   font-size: 40px;
   font-weight: 120;
   letter-spacing: 0.05em;
@@ -84,23 +83,8 @@ a {
   text-decoration: none;
 }
 
-a:hover{
-  text-decoration: underline;
-  text-decoration-style: dashed;
-  text-decoration-thickness: .1px;
-  transition: all 0.2s ease-in-out;
-}
-
 .github {
-  margin: 5px;
-  color: #666;
-  font-size: 2em;
-}
-
-.instagram {
-  margin: 5px;
-  color: #666;
-  font-size: 2em;
+  font-family: monospace;
 }
 
 @media only screen and (max-width: 1000px) {
